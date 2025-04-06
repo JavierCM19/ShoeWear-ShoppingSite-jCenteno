@@ -1,0 +1,267 @@
+/* Initial reset */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ li {
+    list-style-type: none;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ a, img, span, table, tbody, button, ion-icon {
+    display: block;
+ }
+
+ button {
+    cursor: pointer;
+ }
+
+ html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+ }
+
+ body {
+    font-size: 1.6rem;
+    border-radius: 10px;
+    background-color: #FFF;
+    height: 100vh;
+    color: #000;
+    font-family: 'roboto', sans-serif;
+ }
+
+ ::-webkit-scrollbar {
+    width: 10px;
+ }
+
+ ::-webkit-scrollbar-track {
+    background: hsl(0, 0%, 95%);
+ }
+
+ ::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 80%);
+ }
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: hsl(0, 0%, 70%);
+ }
+
+
+
+ /* HEADER */
+
+ .header {
+    background-color: #FFF;
+    top: 0;
+    left: 0;
+    transition: 0.25s ease;
+    width: 100%;
+    z-index: 40;
+    height: 80px;
+ }
+
+
+ .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 1rem;
+ }
+
+ .navbar-large {
+   visibility: hidden;
+   display: none;
+ }
+ .navbar-large ul{
+   display: flex;
+   gap: 25px;
+
+ }
+
+ .navbar-large a {
+   color: inherit;
+   padding: 5px 10px;
+   margin: 5px;
+ }
+
+ .navbar-large a:hover, .profile-nav-large:hover {
+   border-bottom: 1px solid #000;
+ }
+
+ .profile-nav-large {
+   position: absolute;
+   left:95%;
+   padding: 5px 10px;
+   visibility: hidden;
+   display: none;
+   color: inherit;
+ }
+
+ .nav-open-btn {
+    font-size: 25px;
+    background: none;
+    padding: 10px;
+    transition: .25s ease;
+ }
+
+ .nav-open-btn:is(:hover, :focus) {
+    transform: scale(1.4);
+ }
+
+ .navbar {
+   background: #FFF;
+    position: fixed;
+    top: 0;
+    left: -280px;
+    width: 100%;
+    height: 100%;
+    max-width: 270px;
+    box-shadow: 3px 0 10px #555;
+    overscroll-behavior: contain;
+    transition: 0.25s ease-out;
+    z-index: 20;
+    visibility: hidden;
+ }
+
+ .navbar.active {
+   visibility: visible;
+   transform: translateX(280px);
+   transition: 0.25s ease-in;
+}
+ 
+ .nav-close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 35px;
+    transition: .25s ease;
+    padding: 10px;
+
+ }
+ .nav-close-btn:is(:hover, :focus) {
+    transform: scale(1.4);
+ }
+
+ .navbar .logo {
+   display: flex;
+   justify-content: center;
+   padding-block: 20px;
+    
+ }
+
+ .nav-pages {
+    padding: 2em;
+
+ }
+
+ .nav-link{
+   padding: 0.5em 0;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    border-bottom: 2px solid #EEE;
+ }
+
+ .overlay {
+   position: fixed;
+   inset: 0;
+   background: hsla(0, 0%, 0%, 0.3);
+   z-index: 1;
+   opacity: 0;
+   transition: 0.25s ease;
+   pointer-events: none;
+ }
+
+ .overlay.active {
+   opacity: 1;
+   pointer-events: all;
+ }
+
+
+ /* CONTACT */
+
+main {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: flex-start;
+   background-image: url(/contact/assets/images/background.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: #000;
+}
+
+article {
+   margin: 2em 4em;
+   width: 65%;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+h1 {
+   font-size: clamp(32px, 6vw, 64px);
+   font-weight: 300;
+   letter-spacing: 10px;
+}
+
+form {
+   margin-top: 3em;
+
+}
+
+form div {
+   margin: 1.4em 0;
+}
+
+input, textarea {
+   display: block;
+   width: 100%;
+   height: 60px;
+   border-radius: 15px;
+   margin: 15px 0;
+   border: 2px solid #000;
+}
+
+textarea {
+   height: 150px;
+}
+
+
+
+
+   /* MEDIA QUERY */
+
+   @media (max-width: 700px) {
+   main {
+      justify-content: center;
+      background-position: right;
+   }
+   article {
+      width: 90%;
+      margin: 2em 0;
+   }
+   
+ }
+  
+   @media (min-width:1080px ) {
+  
+     .navbar-large, .profile-nav-large {
+        visibility: visible;
+        display: block;
+     }
+  
+     .nav-open-btn {
+        visibility: hidden;
+     }
+     article {
+      width: 45%;
+     }
+
+   }
