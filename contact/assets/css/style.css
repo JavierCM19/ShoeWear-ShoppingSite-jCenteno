@@ -191,7 +191,7 @@ main {
    height: 100%;
    display: flex;
    justify-content: flex-start;
-   background-image: url(/contact/assets/images/background.png);
+   background-image: url(assets/images/background.png);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
