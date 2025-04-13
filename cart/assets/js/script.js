@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const totalPrice = document.querySelector('.total-price .value p');
     
     // Fetch products data
-    fetch('../../products/assets/data/products.json')
+    fetch('../products/assets/data/products.json')
         .then(response => response.json())
         .then(products => {
             if (cartItems.length === 0) {
