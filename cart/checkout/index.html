@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShoeWear - Products</title>
+    <title>ShoeWear - About Us</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" href="../favicon.svg" type="image/svg+xml">
 
     <!-- css link -->
 
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +34,7 @@
                         <a href="../">Home</a>
                     </li>
                     <li>
-                        <a href="./">Products</a>
+                        <a href="../products/">Products</a>
                     </li>
                     <li>
                         <a href="../contact/">Contact</a>
@@ -44,7 +44,7 @@
                     </li>
                     
                     <li>
-                        <a href="../cart/">Cart</a>
+                        <a href="./">Cart</a>
                     </li>
                 </ul>
             </nav>
@@ -70,7 +70,7 @@
                         <a href="../" class="nav-link">Home</a>
                     </li>
                     <li class="nav-page">
-                        <a href="./" class="nav-link">Products</a>
+                        <a href="../products/" class="nav-link">Products</a>
                     </li>
                     <li class="nav-page">
                         <a href="../contact/" class="nav-link">Contact</a>
@@ -82,60 +82,93 @@
                         <a href="../profile/" class="nav-link">Profile</a>
                     </li>
                     <li class="nav-page">
-                        <a href="../cart/" class="nav-link">Cart</a>
+                        <a href="./" class="nav-link">Cart</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
+
     <main>
-        <div class="container">
-            <div class="config-options">
-                <div class="filters">
-                    <h3>Filters</h3>
-                    <div class="filter-group">
-                        <label>Category:</label>
-                        <select id="category-filter">
-                            <option value="all">All Categories</option>
-                            <option value="men">Men's Shoes</option>
-                            <option value="women">Women's Shoes</option>
-                            <option value="kids">Kid's Shoes</option>
-                        </select>
+        <article>
+            <h1>Checkout</h1>
+            
+            <section class="address-info">
+                <h2>Delivery Information</h2>
+
+                <form action="">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
                     </div>
-                    <div class="filter-group">
-                        <label>Brand:</label>
-                        <select id="brand-filter">
-                            <option value="all">All</option>
-                            <option value="nike">Nike</option>
-                            <option value="adidas">Adidas</option>
-                            <option value="converse">Converse</option>
-                            <option value="puma">Puma</option>
-                        </select>
+
+                    <div>
+                        <label for="firstname">Firstname</label>
+                        <input type="text" id="firstname">
+                    </div>
+                    
+                    <div>
+                        <label for="lastname">Lastname</label>
+                        <input type="text" id="lastname">
+                    </div>
+
+                    <div>
+                        <label for="address">Address</label>
+                        <input type="text" id="address">
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="number" id="phone">
+                    </div>
+
+                    <div>
+                        <label for="city">City</label>
+                        <input type="text" id="city">
+                        <label for="state">State</label>
+                        <input type="text" id="state">
+                        <label for="zipcode">ZipCode</label>
+                        <input type="number" id="zipcode">
+                    </div>
+                </form>
+            </section>
+            <section class="items-info">
+                <h2>Your Cart</h2>
+
+                <div class="summary">
+                    <div class="item-summary">
+                        <div class="item-subtotal">
+                            <div class="label">
+                                <p>Subtotal:</p>
+                                <p>Estimated Shipping: </p>
+                                <p>Estimated Taxes: </p>
+                            </div>
+                            <div class="value">
+                                <p>$0.00</p>
+                                <p>Free</p>
+                                <p>$0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total-price">
+                        <div class="label">
+                            <p>Total</p>
+                        </div>
+                        <div class="value">
+                            <p>$0.00</p>
+                        </div>
                     </div>
                 </div>
-                <div class="sort">
-                    <h3>Sort By</h3>
-                    <select id="sort-by">
-                        <option value="default">Default</option>
-                        <option value="price-asc">Price: Low to High</option>
-                        <option value="price-desc">Price: High to Low</option>
-                        <option value="name-asc">Name: A to Z</option>
-                        <option value="name-desc">Name: Z to A</option>
-                    </select>
+                <div class="cart">
+                    <ul class="cart-list">
+                        <!-- items here -->
+                    </ul>
                 </div>
-            </div>
-         <div class="collection">
-             <ul class="shoes-list">
-                
-             </ul>
-         </div>
-        </div>
-     </main>
+            </section>
+        </article>
+    </main>
 
     
-    
-
-
 
 
 
@@ -152,5 +185,6 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
+
 </body>
 </html>

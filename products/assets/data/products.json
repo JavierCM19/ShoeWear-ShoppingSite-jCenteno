@@ -1,0 +1,139 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Nike Air Force 1 '07",
+        "category": "men",
+        "price": 90,
+        "image": "assets/images/nike-shoes/nike-men1.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 2,
+        "name": "Nike Air Max Dn8",
+        "category": "men",
+        "price": 190,
+        "image": "assets/images/nike-shoes/nike-men2.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 3,
+        "name": "Nike Vomero 18",
+        "category": "men",
+        "price": 150,
+        "image": "assets/images/nike-shoes/nike-men3.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 4,
+        "name": "Nike Air Max 1 Essential",
+        "category": "men",
+        "price": 140,
+        "image": "assets/images/nike-shoes/nike-men4.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 5,
+        "name": "Nike LeBron XXII \"Mogul\"",
+        "category": "men",
+        "price": 180,
+        "image": "assets/images/nike-shoes/nike-men5.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 6,
+        "name": "Nike Air Jordan 4 RM",
+        "category": "men",
+        "price": 150,
+        "image": "assets/images/nike-shoes/nike-men6.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 7,
+        "name": "Nike Killshot 2",
+        "category": "women",
+        "price": 90,
+        "image": "assets/images/nike-shoes/nike-woman1.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 8,
+        "name": "Nike Air Max 270",
+        "category": "women",
+        "price": 160,
+        "image": "assets/images/nike-shoes/nike-women2.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 9,
+        "name": "Nike Air Max Dn8",
+        "category": "women",
+        "price": 190,
+        "image": "assets/images/nike-shoes/nike-women3.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 10,
+        "name": "Nike Dunk Low",
+        "category": "women",
+        "price": 125,
+        "image": "assets/images/nike-shoes/nike-women4.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 11,
+        "name": "Nike Pegasus 41",
+        "category": "women",
+        "price": 140,
+        "image": "assets/images/nike-shoes/nike-women5.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 12,
+        "name": "Nike Air Force 1 LE",
+        "category": "kids",
+        "price": 90,
+        "image": "assets/images/nike-shoes/nike-kids1.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 13,
+        "name": "Nike Vomero 5",
+        "category": "kids",
+        "price": 110,
+        "image": "assets/images/nike-shoes/nike-kids2.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 14,
+        "name": "Nike Jordan Retro High OG",
+        "category": "kids",
+        "price": 85,
+        "image": "assets/images/nike-shoes/nike-kids3.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      },
+      {
+        "id": 15,
+        "name": "Nike Air Max 270",
+        "category": "kids",
+        "price": 130,
+        "image": "assets/images/nike-shoes/nike-kids4.png",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "nike"
+      }
+    ]
+  }
