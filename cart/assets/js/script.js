@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
             listItem.innerHTML = `
                 <div class="item-description">
                     <div class="item-img">
-                        <img src="../../products/${product.image}" alt="${product.name}">
+                        <img src="../products/${product.image}" alt="${product.name}">
                     </div>
                     <div class="item-info">
                         <p class="shoe-name">${product.name}</p>
