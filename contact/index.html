@@ -95,26 +95,34 @@
         <article>
             <section>
                 <h1>Contact Us</h1>
-                <form action="#" method="post">
-                    <div>
+                <form id="contact-form">
+                    <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" id="name">
+                        <input type="text" id="name" required>
+                        <span class="error-message" id="name-error"></span>
                     </div>
-
-                    <div>
+                
+                    <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" id="email">
+                        <input type="email" id="email" required>
+                        <span class="error-message" id="email-error"></span>
                     </div>
                     
-                    <div>
+                    <div class="form-group">
                         <label for="phone">Phone:</label>
-                        <input type="number" id="phone">
+                        <input type="tel" id="phone" required>
+                        <span class="error-message" id="phone-error"></span>
                     </div>
-                    <div>
+                    
+                    <div class="form-group">
                         <label for="issue">Give a brief description about your issue</label>
-                        <textarea id="issue"></textarea>
+                        <textarea id="issue" required></textarea>
+                        <span class="error-message" id="issue-error"></span>
                     </div>
-
+                
+                    <div class="form-group">
+                        <button type="submit" class="submit">Submit</button>
+                    </div>
                 </form>
             </section>
         </article>

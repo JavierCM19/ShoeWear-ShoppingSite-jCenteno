@@ -183,15 +183,147 @@
    pointer-events: all;
  }
 
+ /* CHECKOUT */
+
+ main {
+   display: flex;
+   justify-content: center;
+ }
+
+ article {
+   width: 90%;
+ }
+
+ h1 {
+   font-size: clamp(32px, 6vw, 64px);
+   font-weight: 100;
+   margin: 0.5em 0 1em 0;
+ }
+
+ .order-summary {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   flex-direction: column;
+ }
+
+ .delivery-info {
+   flex-basis: 75%;
+ }
+
+ .delivery-info form {
+   margin-top: 2em;
+   
+ }
+
+
+
+ .summary {
+   flex-basis: 25%;
+ }
+
+ .item-img {
+   width: 100px;
+   height: 100px;
+   overflow: hidden;
+}
+
+
+
+.item-img img {
+   width: 100%;
+   object-fit: cover;
+}
+
+.item-subtotal, .total-price {
+   display: flex;
+   justify-content: space-between;
+}
+
+.item-subtotal {
+   margin-bottom: 25px;
+}
+
+.total-price {
+   border-top: 1px solid #AAA;
+}
+
+.label p, .value p {
+   margin: 12px 0 0 10px;
+}
+
+.delivery-info {
+   background: #fff;
+   padding: 25px;
+   border-radius: 8px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+   margin-bottom: 30px;
+}
+
+input {
+   display: block;
+   width: 100%;
+   padding: 20px 20px;
+   border-radius:15px;
+   margin-top: 8px;
+   border: 1px solid #AAA;
+}
+
+form > div {
+   margin-top: 20px;
+}
+
+.name {
+   display: flex;
+   justify-content: center;
+   gap: 8%;
+}
+
+.name > div {
+   flex-basis: 46%;
+}
+
+.city-state {
+   display: flex;
+   gap: 5%;
+}
+
+.city-state > div {
+   flex-basis: 30%;
+}
+
+div.submit-btn {
+   margin: 80px 0;
+}
+
+.submit-btn button {
+   width: 100%;
+   height: 60px;
+   border-radius: 20px;
+   border: none;
+   background-color: #000;
+   color: #FFF;
+}
+
+.cart-item {
+   display: flex;
+   gap: 20px;
+   margin: 30px 0;
+}
+
+.item-details > * {
+   margin-top: 5px;
+}
+
+
+
 
 
 
 
    /* MEDIAA QUERY */
 
-   @media (max-width: 700px) {
 
- }
   
    @media (min-width:1080px ) {
   
@@ -202,6 +334,10 @@
   
      .nav-open-btn {
         visibility: hidden;
+     }
+
+     .order-summary {
+      flex-direction: row;
      }
 
    }

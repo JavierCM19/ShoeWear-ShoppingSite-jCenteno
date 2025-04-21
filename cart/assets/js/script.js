@@ -148,4 +148,18 @@ document.addEventListener('DOMContentLoaded', function() {
         return category === 'men' ? "Men's Shoes" :
                category === 'women' ? "Women's Shoes" : "Kid's Shoes";
     }
+
+    const checkoutBtn = document.querySelector('.checkout-btn');
+if (checkoutBtn) {
+    checkoutBtn.addEventListener('click', function() {
+        const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+        if (cartItems.length === 0) {
+            alert('Your cart is empty');
+            return;
+        }
+        // Redirect to checkout page or process payment
+        
+        window.location.href = 'checkout/';
+    });
+}
 });

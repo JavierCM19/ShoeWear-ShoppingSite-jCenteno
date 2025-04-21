@@ -31,7 +31,6 @@
     font-size: 1.6rem;
     border-radius: 10px;
     background-color: #FFF;
-    height: 100vh;
     color: #000;
     font-family: 'roboto', sans-serif;
  }
@@ -196,6 +195,7 @@ main {
    background-position: center;
    background-repeat: no-repeat;
    color: #000;
+  
 }
 
 article {
@@ -231,6 +231,54 @@ input, textarea {
 
 textarea {
    height: 150px;
+}
+
+.form-group {
+   margin-bottom: 1.5rem;
+   position: relative;
+}
+
+.error-message {
+   color: #e74c3c;
+   font-size: 1.5rem;
+   margin-top: 0.3rem;
+   display: none;
+}
+
+input.error,
+textarea.error {
+   border-color: #e74c3c;
+}
+
+input.valid,
+textarea.valid {
+   border-color: #2ecc71;
+}
+
+.submit {
+   background-color: #333;
+   color: #FFF;
+   border: none;
+   padding: 12px 25px;
+   font-size: 1rem;
+   border-radius: 4px;
+   cursor: pointer;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+}
+
+.submit:hover {
+   background-color: #555;
+}
+
+.form-success {
+   display: none;
+   background-color: #d4edda;
+   color: #155724;
+   padding: 1rem;
+   border-radius: 4px;
+   margin-top: 1rem;
+   text-align: center;
 }
 
 

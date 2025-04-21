@@ -176,6 +176,11 @@
     margin-bottom: 1em;
     font-size: 1.2em;
     border-bottom: 2px solid #EEE;
+    color: #000;
+ }
+
+ .nav-link:is(:hover, :focus) {
+   border-bottom: 2px solid #999;
  }
 
  .overlay {
@@ -261,6 +266,11 @@ article {
     border: 1px solid #CCC;
     padding: 12px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.shoe-sizes li p:is(:hover,:focus) {
+   background-color: #EEE;
 }
 .shoe-sizes li > p.active{
    border: 1px solid #000;
@@ -277,6 +287,11 @@ article {
     color: #FFF;
     padding: 20px 80px;
     border-radius: 35px;
+    cursor: pointer;
+}
+
+.cart-btn a:is(:hover,:focus) {
+   background-color: #222;
 }
 
 

@@ -31,25 +31,25 @@
             <nav class="navbar-large">
                 <ul>
                     <li>
-                        <a href="../">Home</a>
+                        <a href="../../">Home</a>
                     </li>
                     <li>
-                        <a href="../products/">Products</a>
+                        <a href="../">Products</a>
                     </li>
                     <li>
-                        <a href="../contact/">Contact</a>
+                        <a href="../../contact/">Contact</a>
                     </li>
                     <li>
-                        <a href="../about/">About</a>
+                        <a href="../../about/">About</a>
                     </li>
                     
                     <li>
-                        <a href="./">Cart</a>
+                        <a href="../../cart/">Cart</a>
                     </li>
                 </ul>
             </nav>
     
-            <a href="../profile/" class="profile-nav-large">Profile</a>
+            <a href="../../profile/" class="profile-nav-large">Profile</a>
           
     
             <button class="nav-open-btn" id="btn-open">
@@ -67,22 +67,22 @@
     
                 <ul class="nav-pages">
                     <li class="nav-page">
-                        <a href="../" class="nav-link">Home</a>
+                        <a href="../../" class="nav-link">Home</a>
                     </li>
                     <li class="nav-page">
-                        <a href="../products/" class="nav-link">Products</a>
+                        <a href="../" class="nav-link">Products</a>
                     </li>
                     <li class="nav-page">
-                        <a href="../contact/" class="nav-link">Contact</a>
+                        <a href="../../contact/" class="nav-link">Contact</a>
                     </li>
                     <li class="nav-page">
-                        <a href="../about/" class="nav-link">About</a>
+                        <a href="../../about/" class="nav-link">About</a>
                     </li>
                     <li class="nav-page">
-                        <a href="../profile/" class="nav-link">Profile</a>
+                        <a href="../../profile/" class="nav-link">Profile</a>
                     </li>
                     <li class="nav-page">
-                        <a href="./" class="nav-link">Cart</a>
+                        <a href="../../cart/" class="nav-link">Cart</a>
                     </li>
                 </ul>
             </nav>
@@ -93,78 +93,92 @@
         <article>
             <h1>Checkout</h1>
             
-            <section class="address-info">
-                <h2>Delivery Information</h2>
-
-                <form action="">
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email">
-                    </div>
-
-                    <div>
-                        <label for="firstname">Firstname</label>
-                        <input type="text" id="firstname">
-                    </div>
-                    
-                    <div>
-                        <label for="lastname">Lastname</label>
-                        <input type="text" id="lastname">
-                    </div>
-
-                    <div>
-                        <label for="address">Address</label>
-                        <input type="text" id="address">
-                    </div>
-
-                    <div>
-                        <label for="phone">Phone Number</label>
-                        <input type="number" id="phone">
-                    </div>
-
-                    <div>
-                        <label for="city">City</label>
-                        <input type="text" id="city">
-                        <label for="state">State</label>
-                        <input type="text" id="state">
-                        <label for="zipcode">ZipCode</label>
-                        <input type="number" id="zipcode">
-                    </div>
-                </form>
-            </section>
-            <section class="items-info">
-                <h2>Your Cart</h2>
-
-                <div class="summary">
-                    <div class="item-summary">
-                        <div class="item-subtotal">
+            <div class="order-summary">
+                <section class="delivery-info">
+                    <h2>Delivery Information</h2>
+    
+                    <form action="">
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+    
+                        <div class="name">
+                            <div>
+                                <label for="firstname">Firstname</label>
+                                <input type="text" id="firstname">
+                            </div>
+                            <div>
+                                <label for="lastname">Lastname</label>
+                                <input type="text" id="lastname">
+                            </div>
+                        </div>
+    
+                        <div>
+                            <label for="address">Address</label>
+                            <input type="text" id="address">
+                        </div>
+    
+                        <div>
+                            <label for="phone">Phone Number</label>
+                            <input type="number" id="phone">
+                        </div>
+    
+                        <div class="city-state">
+                            <div>
+                                <label for="city">City</label>
+                                <input type="text" id="city">
+                            </div>
+                            <div>
+                                <label for="state">State</label>
+                                <input type="text" id="state">
+                            </div>
+                            <div>
+                                <label for="zipcode">ZipCode</label>
+                                <input type="number" id="zipcode">
+                            </div>
+                        </div>
+    
+    
+                        <div class="submit-btn">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </section>
+                <section class="items-info">
+                    <h2>Your Cart</h2>
+    
+                    <div class="summary">
+                        <div class="item-summary">
+                            <div class="item-subtotal">
+                                <div class="label">
+                                    <p>Subtotal:</p>
+                                    <p>Estimated Shipping: </p>
+                                    <p>Estimated Taxes: </p>
+                                </div>
+                                <div class="value">
+                                    <p>$0.00</p>
+                                    <p>Free</p>
+                                    <p>$0.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="total-price">
                             <div class="label">
-                                <p>Subtotal:</p>
-                                <p>Estimated Shipping: </p>
-                                <p>Estimated Taxes: </p>
+                                <p>Total</p>
                             </div>
                             <div class="value">
                                 <p>$0.00</p>
-                                <p>Free</p>
-                                <p>$0.00</p>
                             </div>
                         </div>
                     </div>
-                    <div class="total-price">
-                        <div class="label">
-                            <p>Total</p>
-                        </div>
-                        <div class="value">
-                            <p>$0.00</p>
-                        </div>
+                    <div class="cart">
+                        <ul class="cart-list">
+                            <!-- items here -->
+                        </ul>
                     </div>
-                </div>
-                <div class="cart">
-                    <ul class="cart-list">
-                        <!-- items here -->
-                    </ul>
-                </div>
-            </section>
+                </section>
+            </div>
         </article>
     </main>
 

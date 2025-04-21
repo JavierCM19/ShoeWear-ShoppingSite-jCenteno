@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 
                 <div class="buy-button">
-                    <div class="cart-btn btn" id="add-to-cart">
-                        Add to Bag
+                    <div class="cart-btn" id="add-to-cart">
+                        <a>Add to cart</a>
                     </div>
                 </div>
             </section>

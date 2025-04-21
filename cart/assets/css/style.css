@@ -138,7 +138,10 @@
     transition: 0.25s ease-out;
     z-index: 20;
     visibility: hidden;
+    
  }
+ 
+
 
  .navbar.active {
    visibility: visible;
@@ -263,8 +266,21 @@ article {
 
 .item-quantity span {
    display: inline-block;
-   margin: 0 8px;
+   margin: 0 3px;
    
+}
+
+.less, .more {
+   border-radius: 50px;
+   width: 20px;
+   height: 20px;
+   text-align: center;
+   cursor: pointer;
+}
+
+.less:hover, .more:hover {
+   background-color: rgba(0, 0, 0, 0.1);
+
 }
 
 .item-subtotal, .total-price {
@@ -288,13 +304,28 @@ article {
    margin-top: 4em;
 }
 
+.checkout a {
+   margin-top: 3em;
+   color: #FFF;
+   background-color: #000;
+   text-align: center;
+   padding: 10px 0;
+   border-radius: 25px;
+   cursor: pointer;
+}
+.checkout a:is(:hover,:focus) {
+   background-color: #222;
+}
+
 
 
 
    /* MEDIAA QUERY */
 
    @media (max-width: 700px) {
-
+      article {
+         flex-direction: column;
+      }
  }
   
    @media (min-width:1080px ) {
