@@ -108,6 +108,7 @@
     background: none;
     padding: 10px;
     transition: .25s ease;
+    border: none;
  }
 
  .nav-open-btn:is(:hover, :focus) {
@@ -165,7 +166,13 @@
     margin-bottom: 1em;
     font-size: 1.2em;
     border-bottom: 2px solid #EEE;
+    color: #000;
  }
+
+ .nav-link:is(:hover,:focus) {
+   border-bottom: 2px solid #555;
+ }
+
 
  .overlay {
    position: fixed;

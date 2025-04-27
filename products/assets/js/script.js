@@ -1,6 +1,4 @@
-
 // HEADER RESPONSIVE
-
 const overlay = document.getElementById("overlay");
 const navOpen = document.getElementById("btn-open");
 const navClose = document.getElementById("btn-close");
@@ -21,12 +19,8 @@ navClose.addEventListener("click", function () {
     overlay.classList.remove("active");
 });
 
-
-
 // PRODUCTS FETCHING
-
 document.addEventListener('DOMContentLoaded', function() {
-    
     const shoesList = document.querySelector('.shoes-list');
     const categoryFilter = document.getElementById('category-filter');
     const brandFilter = document.getElementById('brand-filter');
@@ -36,19 +30,43 @@ document.addEventListener('DOMContentLoaded', function() {
     let products = [];
     let filteredProducts = [];
     
+    // Get URL parameters from home page links
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoryParam = urlParams.get('filter') || urlParams.get('category');
+    const brandParam = urlParams.get('brand');
+    
     // Fetch products from JSON
     fetch('./assets/data/products.json')
         .then(response => response.json())
         .then(data => {
             products = data.products;
             filteredProducts = [...products];
-            renderProducts(filteredProducts);
+            
+            // Set filters from URL parameters if exist
+            if (categoryParam) {
+                categoryFilter.value = categoryParam;
+            }
+            if (brandParam) {
+                brandFilter.value = brandParam;
+            }
+            
+            // Apply filters from home page links
+            if (categoryParam || brandParam) {
+                filterProducts();
+            } else {
+                renderProducts(filteredProducts);
+            }
         })
         .catch(error => console.error('Error loading products:', error));
     
     // display the products
     function renderProducts(productsToRender) {
         shoesList.innerHTML = '';
+        
+        if (productsToRender.length === 0) {
+            shoesList.innerHTML = '<p class="no-products">No products match your filters.</p>';
+            return;
+        }
         
         productsToRender.forEach(product => {
             const categoryText = 
@@ -66,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="shoe-info">
                         <p class="shoe-name">${product.name}</p>
                         <p class="shoe-category">${categoryText}</p>
-                        <p class="shoe-price">$${product.price}</p>
+                        <p class="shoe-price"><span class=initial-price> $${product.initialPrice}</span> <span class=price>$${product.price}</span></p>
                     </div>
                 </a>
             `;
@@ -86,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return false;
             }
             
-            // firlter for brand
+            // Filter for brand
             if (brandValue !== 'all' && product.brand !== brandValue) {
                 return false;
             }

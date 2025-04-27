@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="shoe-info">
                     <p class="shoe-name">${product.name}</p>
                     <p class="shoe-category">${categoryText}</p>
+                    <p class="initial-price">$${product.initialPrice}</p>
                     <p class="shoe-price">$${product.price}</p>
                     
                 </div>
@@ -131,6 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // if item does not exists, add new item to cart
             cartItems.push({
                 id: productId,
+                name: document.querySelector('.shoe-name').textContent,
                 size: size,
                 quantity: 1,
                 addedAt: new Date().toISOString()

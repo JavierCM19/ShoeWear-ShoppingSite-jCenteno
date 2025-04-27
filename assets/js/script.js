@@ -19,3 +19,8 @@ navClose.addEventListener("click", function () {
     navbar.classList.remove("active");
     overlay.classList.remove("active");
 });
+
+const urlParams = new URLSearchParams(window.location.search);
+const categoryFilter = urlParams.get('category');
+const brandFilter = urlParams.get('brand');
+

@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (order) {
             let itemsHtml = '';
             order.items.forEach(item => {
-                itemsHtml += `<p>${item.quantity}x Item ID: ${item.id}, Size: ${item.size}</p>`;
+                itemsHtml += `<p>${item.quantity}  ${item.name}, Size: ${item.size}</p>`;
             });
 
             orderDetails.innerHTML = `

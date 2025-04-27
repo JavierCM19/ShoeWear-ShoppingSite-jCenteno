@@ -4,7 +4,8 @@
         "id": 1,
         "name": "Nike Air Force 1 '07",
         "category": "men",
-        "price": 90,
+        "initialPrice": 90,
+        "price": 70,
         "image": "assets/images/nike-shoes/nike-men1.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -13,7 +14,8 @@
         "id": 2,
         "name": "Nike Air Max Dn8",
         "category": "men",
-        "price": 190,
+        "initialPrice": 190,
+        "price": 150,
         "image": "assets/images/nike-shoes/nike-men2.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -22,7 +24,8 @@
         "id": 3,
         "name": "Nike Vomero 18",
         "category": "men",
-        "price": 150,
+        "initialPrice": 150,
+        "price": 120,
         "image": "assets/images/nike-shoes/nike-men3.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -31,7 +34,8 @@
         "id": 4,
         "name": "Nike Air Max 1 Essential",
         "category": "men",
-        "price": 140,
+        "initialPrice": 140,
+        "price": 130,
         "image": "assets/images/nike-shoes/nike-men4.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -40,7 +44,8 @@
         "id": 5,
         "name": "Nike LeBron XXII \"Mogul\"",
         "category": "men",
-        "price": 180,
+        "initialPrice": 180,
+        "price": 170,
         "image": "assets/images/nike-shoes/nike-men5.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -49,7 +54,8 @@
         "id": 6,
         "name": "Nike Air Jordan 4 RM",
         "category": "men",
-        "price": 150,
+        "initialPrice": 150,
+        "price": 145,
         "image": "assets/images/nike-shoes/nike-men6.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -58,7 +64,8 @@
         "id": 7,
         "name": "Nike Killshot 2",
         "category": "women",
-        "price": 90,
+        "initialPrice": 90,
+        "price": 60,
         "image": "assets/images/nike-shoes/nike-woman1.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -67,7 +74,8 @@
         "id": 8,
         "name": "Nike Air Max 270",
         "category": "women",
-        "price": 160,
+        "initialPrice": 160,
+        "price": 120,
         "image": "assets/images/nike-shoes/nike-women2.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -76,7 +84,8 @@
         "id": 9,
         "name": "Nike Air Max Dn8",
         "category": "women",
-        "price": 190,
+        "initialPrice": 190,
+        "price": 180,
         "image": "assets/images/nike-shoes/nike-women3.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -85,7 +94,8 @@
         "id": 10,
         "name": "Nike Dunk Low",
         "category": "women",
-        "price": 125,
+        "initialPrice": 125,
+        "price": 110,
         "image": "assets/images/nike-shoes/nike-women4.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -94,7 +104,8 @@
         "id": 11,
         "name": "Nike Pegasus 41",
         "category": "women",
-        "price": 140,
+        "initialPrice": 140,
+        "price": 130,
         "image": "assets/images/nike-shoes/nike-women5.png",
         "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
         "brand": "nike"
@@ -103,37 +114,411 @@
         "id": 12,
         "name": "Nike Air Force 1 LE",
         "category": "kids",
-        "price": 90,
+        "initialPrice": 90,
+        "price": 85,
         "image": "assets/images/nike-shoes/nike-kids1.png",
-        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
         "brand": "nike"
       },
       {
         "id": 13,
         "name": "Nike Vomero 5",
         "category": "kids",
-        "price": 110,
+        "initialPrice": 110,
+        "price": 100,
         "image": "assets/images/nike-shoes/nike-kids2.png",
-        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
         "brand": "nike"
       },
       {
         "id": 14,
         "name": "Nike Jordan Retro High OG",
         "category": "kids",
-        "price": 85,
+        "initialPrice": 85,
+        "price": 55,
         "image": "assets/images/nike-shoes/nike-kids3.png",
-        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
         "brand": "nike"
       },
       {
         "id": 15,
         "name": "Nike Air Max 270",
         "category": "kids",
-        "price": 130,
+        "initialPrice": 130,
+        "price": 120,
         "image": "assets/images/nike-shoes/nike-kids4.png",
-        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
         "brand": "nike"
+      },
+      {
+        "id": 16,
+        "name": "Samba OG Shoes",
+        "category": "men",
+        "initialPrice": 100,
+        "price": 85,
+        "image": "assets/images/adidas-shoes/adidas-men1.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 17,
+        "name": "Ultraboost 1.0 Shoes",
+        "category": "men",
+        "initialPrice": 180,
+        "price": 170,
+        "image": "assets/images/adidas-shoes/adidas-men2.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 18,
+        "name": "Gazelle Indoor Shoes",
+        "category": "men",
+        "initialPrice": 120,
+        "price": 80,
+        "image": "assets/images/adidas-shoes/adidas-men3.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 19,
+        "name": "Dropset 3 Strength Training Shoes",
+        "category": "men",
+        "initialPrice": 130,
+        "price": 100,
+        "image": "assets/images/adidas-shoes/adidas-men4.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 20,
+        "name": "Adilette Aqua Slides",
+        "category": "men",
+        "initialPrice": 25,
+        "price": 20,
+        "image": "assets/images/adidas-shoes/adidas-men5.avif",
+        "sizes": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 21,
+        "name": "Adizero Adios Pro 4 Shoes",
+        "category": "men",
+        "initialPrice": 250,
+        "price": 230,
+        "image": "assets/images/adidas-shoes/adidas-men6.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 22,
+        "name": "Samba OG Shoes",
+        "category": "women",
+        "initialPrice": 100,
+        "price": 90,
+        "image": "assets/images/adidas-shoes/adidas-women1.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 23,
+        "name": "Gazelle Bold Shoes",
+        "category": "women",
+        "initialPrice": 120,
+        "price": 100,
+        "image": "assets/images/adidas-shoes/adidas-women2.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 24,
+        "name": "Anthony Edwards 1 Low Shoes",
+        "category": "women",
+        "initialPrice": 110,
+        "price": 80,
+        "image": "assets/images/adidas-shoes/adidas-women3.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 25,
+        "name": "Adilette Lumia Slides",
+        "category": "women",
+        "initialPrice": 35,
+        "price": 30,
+        "image": "assets/images/adidas-shoes/adidas-women4.avif",
+        "sizes": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 26,
+        "name": "4DFWD 4 Running Shoes",
+        "category": "women",
+        "initialPrice": 200,
+        "price": 185,
+        "image": "assets/images/adidas-shoes/adidas-women5.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "adidas"
+      },
+      {
+        "id": 27,
+        "name": "Samba OG Shoes",
+        "category": "kids",
+        "initialPrice": 80,
+        "price": 60,
+        "image": "assets/images/adidas-shoes/adidas-kids1.avif",
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
+        "brand": "adidas"
+      },
+      {
+        "id": 28,
+        "name": "Anthony Edwards 1 Low Shoes",
+        "category": "kids",
+        "initialPrice": 90,
+        "price": 70,
+        "image": "assets/images/adidas-shoes/adidas-kids2.avif",
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
+        "brand": "adidas"
+      },
+      {
+        "id": 29,
+        "name": "Superstar II X Minecraft Shoes",
+        "category": "kids",
+        "initialPrice": 85,
+        "price": 65,
+        "image": "assets/images/adidas-shoes/adidas-kids3.avif",
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
+        "brand": "adidas"
+      },
+      {
+        "id": 30,
+        "name": "CONS Chuck Taylor All Star Pro Suede",
+        "category": "men",
+        "initialPrice": 80,
+        "price": 60,
+        "image": "assets/images/converse-shoes/converse-men1.jpg",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "converse"
+      },
+      {
+        "id": 31,
+        "name": "Chuck Taylor All Star Canvas",
+        "category": "men",
+        "initialPrice": 60,
+        "price": 40,
+        "image": "assets/images/converse-shoes/converse-men2.jpg",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "converse"
+      },
+      {
+        "id": 32,
+        "name": "Omega Trainer Color Pop",
+        "category": "men",
+        "initialPrice": 85,
+        "price": 65,
+        "image": "assets/images/converse-shoes/converse-men3.webp",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "converse"
+      },
+      {
+        "id": 33,
+        "name": "Wave Trainer",
+        "category": "men",
+        "initialPrice": 130,
+        "price": 100,
+        "image": "assets/images/converse-shoes/converse-men4.webp",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "converse"
+      },
+      {
+        "id":34,
+        "name": "Chuck Taylor All Star Lift Double Stack",
+        "category": "women",
+        "initialPrice": 85,
+        "price": 60,
+        "image": "assets/images/converse-shoes/converse-women1.webp",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "converse"
+      },
+      {
+        "id":35,
+        "name": "Chuck Taylor All Star Lift Platform Textured",
+        "category": "women",
+        "initialPrice": 75,
+        "price": 65,
+        "image": "assets/images/converse-shoes/converse-women2.webp",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "converse"
+      },
+      {
+        "id":36,
+        "name": "Run Star Trainer",
+        "category": "women",
+        "initialPrice": 90,
+        "price": 60,
+        "image": "assets/images/converse-shoes/converse-women3.webp",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "converse"
+      },
+      {
+        "id":37,
+        "name": "Chuck Taylor All Star Lugged Heel Platform",
+        "category": "women",
+        "initialPrice": 100,
+        "price": 80,
+        "image": "assets/images/converse-shoes/converse-women4.webp",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "converse"
+      },
+      {
+        "id": 38,
+        "name": "Chuck Taylor All Star Canvas",
+        "category": "kids",
+        "initialPrice": 65,
+        "price": 55,
+        "image": "assets/images/converse-shoes/converse-kids1.jpg",
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
+        "brand": "converse"
+      },
+      {
+        "id": 39,
+        "name": "Chuck Taylor All Star EVA Lift Platform Embroidered Florals",
+        "category": "kids",
+        "initialPrice": 65,
+        "price": 55,
+        "image": "assets/images/converse-shoes/converse-kids2.webp",
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
+        "brand": "converse"
+      },
+      {
+        "id": 40,
+        "name": "Chuck Taylor All Star EVA Lift Platform Customized",
+        "category": "kids",
+        "initialPrice": 75,
+        "price": 55,
+        "image": "assets/images/converse-shoes/converse-kids3.webp",
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
+        "brand": "converse"
+      },
+      {
+        "id": 41,
+        "name": "Scuderia Ferrari Speedcat Miami",
+        "category": "men",
+        "initialPrice": 110,
+        "price": 90,
+        "image": "assets/images/puma-shoes/puma-men1.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "puma"
+      },
+      {
+        "id": 42,
+        "name": "GV Special",
+        "category": "men",
+        "initialPrice": 90,
+        "price": 75,
+        "image": "assets/images/puma-shoes/puma-men2.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "puma"
+      },
+      {
+        "id": 43,
+        "name": "Voltaic Evo",
+        "category": "men",
+        "initialPrice": 80,
+        "price": 60,
+        "image": "assets/images/puma-shoes/puma-men3.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
+        "brand": "puma"
+      },
+      {
+        "id": 44,
+        "name": "Mostro OG",
+        "category": "women",
+        "initialPrice": 120,
+        "price": 100,
+        "image": "assets/images/puma-shoes/puma-women1.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11],
+        "brand": "puma"
+      },
+      {
+        "id": 45,
+        "name": "Suede Classic",
+        "category": "women",
+        "initialPrice": 90,
+        "price": 80,
+        "image": "assets/images/puma-shoes/puma-women2.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11],
+        "brand": "puma"
+      },
+      {
+        "id": 46,
+        "name": "Easy Rider Pride",
+        "category": "women",
+        "initialPrice": 100,
+        "price": 90,
+        "image": "assets/images/puma-shoes/puma-women3.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11],
+        "brand": "puma"
+      },
+      {
+        "id": 47,
+        "name": "Karmen Puffy",
+        "category": "women",
+        "initialPrice": 55,
+        "price": 45,
+        "image": "assets/images/puma-shoes/puma-women4.avif",
+        "sizes": [5, 6, 7, 8 , 9, 10],
+        "brand": "puma"
+      },
+      {
+        "id": 48,
+        "name": "Deviate NITRO Elite 3",
+        "category": "women",
+        "initialPrice": 230,
+        "price": 210,
+        "image": "assets/images/puma-shoes/puma-women5.avif",
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11],
+        "brand": "puma"
+      },
+      {
+        "id": 49,
+        "name": "Speedcat OG",
+        "category": "kids",
+        "initialPrice": 75,
+        "price": 65,
+        "image": "assets/images/puma-shoes/puma-kids1.avif",
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
+        "brand": "puma"
+      },
+      {
+        "id": 50,
+        "name": "Speedcat OG",
+        "category": "kids",
+        "initialPrice": 75,
+        "price": 60,
+        "image": "assets/images/puma-shoes/puma-kids2.avif",
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
+        "brand": "puma"
+      },
+      {
+        "id": 51,
+        "name": "PUMA x LAMELO BALL LaFrance Pink Carpet",
+        "category": "kids",
+        "initialPrice": 95,
+        "price": 80,
+        "image": "assets/images/puma-shoes/puma-kids3.avif",
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
+        "brand": "puma"
+      },
+      {
+        "id": 52,
+        "name": "Inverse Fission",
+        "category": "kids",
+        "initialPrice": 65,
+        "price": 50,
+        "image": "assets/images/puma-shoes/puma-kids4.avif",
+        "sizes": [3, 3.5, 4, 4.5, 5, 6, 6.5, 7],
+        "brand": "puma"
       }
     ]
   }

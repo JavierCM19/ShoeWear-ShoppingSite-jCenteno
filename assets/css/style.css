@@ -44,7 +44,6 @@
     border-radius: 10px;
     background-color: #222;
     font-family: 'roboto', sans-serif;
-    height: 600vh;
  }
 
  ::-webkit-scrollbar {
@@ -176,9 +175,13 @@
  .nav-link{
    padding: 0.5em 0;
     margin-bottom: 1em;
-    color: #222;
+    color: #000;
     font-size: 1.2em;
     border-bottom: 2px solid #EEE;
+ }
+
+ .nav-link:is(:hover,:focus) {
+   border-bottom: 2px solid #555;
  }
 
  .overlay {

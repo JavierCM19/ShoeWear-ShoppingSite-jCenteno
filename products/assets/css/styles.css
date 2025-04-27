@@ -42,7 +42,6 @@
     border-radius: 10px;
     background-color: #FFF;
     font-family: 'roboto', sans-serif;
-    height: 600vh;
     color: #000;
     font-family: 'roboto', sans-serif;
  }
@@ -177,6 +176,11 @@
     margin-bottom: 1em;
     font-size: 1.2em;
     border-bottom: 2px solid #EEE;
+    color: #000;
+ }
+
+ .nav-link:is(:hover,:focus) {
+   border-bottom: 2px solid #555;
  }
 
  .overlay {
@@ -238,6 +242,12 @@
 }
 .shoe-info .shoe-category {
    color: #555;
+}
+
+.initial-price {
+   text-decoration: line-through;
+   color: #f00;
+   opacity: 0.5;
 }
 
 

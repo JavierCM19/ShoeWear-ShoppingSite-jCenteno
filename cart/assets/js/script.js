@@ -82,7 +82,6 @@ document.addEventListener('DOMContentLoaded', function() {
             // quatity buttons
             const lessBtn = listItem.querySelector('.less');
             const moreBtn = listItem.querySelector('.more');
-            const quantityDisplay = listItem.querySelector('.quantity');
 
             lessBtn.addEventListener('click', () => {
                 updateQuantity(cartItem.id, cartItem.size, -1);
@@ -130,6 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cartItems.forEach(cartItem => {
             const product = products.find(p => p.id == cartItem.id);
             if (product) {
+                console.log(product);
                 subtotal += product.price * cartItem.quantity;
             }
         });
